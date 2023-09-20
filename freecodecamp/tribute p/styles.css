@@ -1,0 +1,65 @@
+html{
+    font-size:10px;
+  }
+  
+  body{
+    font-family: -apple-system, Arial, sans-serif;
+    font-size: 1.6rem;
+    text-align:center;
+    line-height:1.5;
+    color:#333;
+    margin: 0;
+  }
+  
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+  } 
+  
+  @media (max-width: 460px) {
+    h1 {
+      font-size: 3.5rem;
+      line-height: 1.2;
+    }
+  }
+  
+  main{
+      margin: 30px 8px;
+      padding:15px;
+      background:#eee;
+   }
+  
+  img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  #img-div {
+    background: white;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  ul{
+     max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+  }
+  
+  li{
+    margin: 12px 0;
+  }
+  
+  
+  h2{
+    padding:10px;
+    background:yellow;
+  }
+  
+  h3{
+    padding:15px;
+    background:white;
+  }
